@@ -21,11 +21,5 @@ This web application converts Hinglish text to English text. It also expands sho
 - **Database**: SQLite
 - **Voice Recognition**: Python Speech Recognition Library
 
-### Prerequisites
-
-- Python 3.6+
-- Flask
-- SQLite
-- Pip (Python package installer)
 
 
