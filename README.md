@@ -1,7 +1,31 @@
-We have created a web application which can convert the Hinglish text to English text. Our application can also convert the short notations to its respective long notations. We have also taken input from the user in 4 different methods:
-1. Keyboard
-2. Virtual Keyboard
-3. Voice
-4. File
+# Hinglish to English Converter
 
-We have used Flask as web framework which is written in python. We have used to sqlite database to store all the short notations - long notations.
+This web application converts Hinglish text to English text. It also expands short notations to their respective long notations. The application accepts user input through four different methods: Keyboard, Virtual Keyboard, Voice, and File.
+
+## Features
+
+- **Text Conversion**: Converts Hinglish text to English.
+- **Notation Expansion**: Converts short notations to long notations.
+- **Multiple Input Methods**:
+  - Keyboard
+  - Virtual Keyboard
+  - Voice
+  - File Upload
+- **User-Friendly Interface**: Designed with HTML, CSS, and JavaScript for an interactive and responsive frontend.
+- **Data Storage**: Uses SQLite database to store short and long notations.
+
+## Technologies Used
+
+- **Backend**: Flask (Python)
+- **Frontend**: HTML, CSS, JavaScript
+- **Database**: SQLite
+- **Voice Recognition**: Python Speech Recognition Library
+
+### Prerequisites
+
+- Python 3.6+
+- Flask
+- SQLite
+- Pip (Python package installer)
+
+
