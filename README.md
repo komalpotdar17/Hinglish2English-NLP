@@ -19,7 +19,7 @@ This web application converts Hinglish text to English text. It also expands sho
 - **Backend**: Flask (Python)
 - **Frontend**: HTML, CSS, JavaScript
 - **Database**: SQLite
-- **Voice Recognition**: Python Speech Recognition Library
+
 
 
 
