@@ -60,11 +60,12 @@ def radio_check():
         return render_template("home_page.html", etext=a)
     return render_template("home_page.html")
 
-#open help page
+#open about page
 @app.route("/about_page", methods=['GET','POST'])
 def about_page():
     return render_template("about_page.html")
 
+#open help page
 @app.route("/help_page", methods=['GET','POST'])
 def help_page():
     return render_template("help_page.html")
