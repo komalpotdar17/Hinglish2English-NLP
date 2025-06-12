@@ -16,6 +16,9 @@ COPY . .
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Download NLTK data
+RUN python -m nltk.downloader punkt punkt_tab
+
 # Expose the port (Render will map it)
 EXPOSE 8000
 
